@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,500&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+
+}
+body {
+  background-color: rgb(16, 15, 15);
+}
+.nave {
+  height: 70px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+.nave .logo img {
+  height: 50px;
+  width: 70px;
+  margin-left: 70px;
+}
+
+.manu {
+  display: flex;
+  margin-right: 70px;
+}
+.manu ul {
+  display: flex;
+  padding: 10px;
+  list-style: none;
+  
+}
+.manu ul li {
+  padding: 10px;
+}
+.manu ul li a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+.scroll {
+  background-color: red;
+  transition: all .2s ease;
+  height: 75px;
+}
+.container
+{
+    width: 600px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 70px;
+
+}
+.swiper
+{
+    width: 600px;
+    height: 400px;
+    transition: 2s;
+    
+}
+.swiper-slide img
+{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    transition: 2s;
+}
+.swiper .swiper-pagination-bullet {
+  background-color: aquamarine;
+  width: 10px;
+  height: 10px;
+  margin: 0 8px;
+}
