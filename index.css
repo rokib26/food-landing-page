@@ -147,6 +147,8 @@ body {
     left: 24px;
     height: 300px;
     width: 700px;
+    display: flex;
+    flex-direction: row;
   }
   .content {
     height: 100%;
@@ -155,10 +157,12 @@ body {
   .content img{
     height: 100%;
     width: 100%;
+    object-fit: cover;
   }
   .logo-1  {
-    margin-top: 1160px;
+    margin-top: 850px;
     position: relative;
+    margin-right: 100px;
   }
   .description{
     font-size: 15px;
