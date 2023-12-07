@@ -164,9 +164,9 @@ body {
     position: relative;
     margin-right: 100px;
   }
-   .splide__slide {
+  .splide__slide {
     width: 700px;
-  } 
+  }
 
   .food {
     width: 610px;
@@ -178,33 +178,33 @@ body {
   .box img {
     height: 400px;
     width: 100%;
-  } 
+  }
 }
 
 /* responsive */
 
 .food {
-  height: 500px;
-  max-width: 1400px;
+  height: 550px;
+  max-width: 1220px;
   background: #1b1b1b;
-  padding: 0 70px ;
+  padding: 0 70px;
   position: relative;
 }
 
 .box {
-  height: 300px;
+  height: 250px;
   width: 100%;
   background-color: white;
 }
 .box img {
   width: 100%;
-  height: 200px;
+  height: 100%;
+  object-fit: cover;
 }
-
 
 .splide {
   position: absolute;
-  top: 100px;
+  top: 210px;
   padding: 0 70px 0 0;
 }
 
@@ -215,4 +215,117 @@ body {
 .splide__pagination__page.is-active {
   opacity: 1;
   background-color: yellow;
+}
+
+.box-content img {
+  height: 30px;
+  width: 30px;
+}
+.box-content .name {
+  font-weight: bold;
+  margin-left: 10px;
+}
+.box-content {
+  position: relative;
+}
+.box-content p {
+  font-size: 10px;
+  margin-left: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.box-content .prise {
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.box-content button {
+  position: absolute;
+  right: 0;
+  bottom: 5px;
+  right: 10px;
+  border: none;
+  background-color: #1b1b1b;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.food-description h1 {
+  text-align: center;
+  color: white;
+  padding: 40px 0 0 0;
+  letter-spacing: 1px;
+}
+.food-description p {
+  text-align: center;
+  color: white;
+}
+
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 60px;
+}
+
+.about-content {
+  width: 50%;
+  padding: 0 70px;
+  height: 600px;
+  margin: 30px;
+}
+
+.about-image {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.image {
+  height: 500px;
+  width: 360px;
+}
+
+.about-image img {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.image-1 {
+  height: 500px;
+  width: 360px;
+  position: absolute;
+  top: 130px;
+  left: 200px;
+}
+
+.image-1 img {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+.services {
+  color: white;
+}
+.services h1 {
+  padding: 100px 0 0 0;
+}
+
+@media screen and (max-width: 480px) {
+  .about-section {
+    flex-direction: column;
+    width: 100%;
+  }
+ .services {
+  width: 600px;
+  position: absolute;
+  right: -240px;
+ }
+  /* .about-content {
+    width: 100%;
+  }
+   */
 }

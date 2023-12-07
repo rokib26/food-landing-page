@@ -45,7 +45,7 @@ var splide = new Splide(".splide", {
     },
     480: {
       perPage: 2,
-      gap: ".7rem",
+      gap: "1rem",
     },
   },
 });
